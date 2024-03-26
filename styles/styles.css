@@ -98,3 +98,69 @@ h1 {
   background-color: #f5b747;
   cursor: pointer;
 }
+
+.info-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: rgb(255, 255, 255);
+  background: url("../assets/home/vawes.png");
+  height: 263px;
+}
+
+.info-container {
+  width: 371px;
+  height: 123px;
+}
+
+.info__header {
+  display: flex;
+  align-items: center;
+}
+
+.info__title {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.plan-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 83px;
+  padding: 26px 0;
+  background-color: rgb(224, 161, 46);
+}
+
+.plan__content {
+  width: 460px;
+}
+
+.plan__title {
+  font-weight: 600;
+  font-size: 48px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 16px;
+}
+
+.plan__subtitle {
+  font-weight: 500;
+  font-size: 32px;
+  margin-bottom: 14px;
+}
+
+.plan__list {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 6px;
+}
+
+.plan__text {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.plan__text-white {
+  color: rgb(255, 255, 255);
+}
