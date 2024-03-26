@@ -17,11 +17,84 @@ body {
 
 .navigation {
   display: flex;
+  align-items: center;
   gap: 18px;
+}
+
+.main-link {
+  font-weight: 500;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-link:active {
+  text-decoration: underline;
+}
+
+.search-icon {
+  cursor: pointer;
 }
 
 .about-section {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+}
+
+.about__content {
+  margin-left: 158px;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 80px;
+  color: #fff;
+}
+
+.about__subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  color: #fff;
+  padding-bottom: 9px;
+}
+
+.about__text {
+  font-weight: 500;
+  font-size: 16px;
+  color: rgb(43, 38, 29);
+  padding-bottom: 9px;
+}
+
+.try-btn {
+  width: 114px;
+  height: 36px;
+  background-color: rgb(43, 38, 29);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.warning-btn {
+  width: 180px;
+  height: 36px;
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  border: none;
+  background-color: #f5b747;
+  cursor: pointer;
 }
