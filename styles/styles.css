@@ -184,6 +184,10 @@ h1 {
   display: flex;
 }
 
+.arrow-img {
+  cursor: pointer;
+}
+
 .testimonial__card {
   width: 460px;
   height: 220px;
@@ -220,4 +224,78 @@ h1 {
 .slider-img {
   display: block;
   margin: 0 auto;
+}
+
+.faq-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.faq__title {
+  font-weight: 600;
+  font-size: 48px;
+  width: 745px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.faq__subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  color: rgb(43, 38, 29);
+  margin-bottom: 66px;
+}
+
+.question-wrapper {
+  font-weight: 600;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.question-wrapper div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  margin-bottom: 10px;
+}
+
+.question-wrapper img {
+  cursor: pointer;
+}
+
+.line {
+  width: 682px;
+  height: 0.5px;
+  background-color: rgb(245, 183, 71);
+}
+
+.cta {
+  font-weight: 600;
+  font-size: 36px;
+  color: rgb(255, 255, 255);
+  margin: 10px 0;
+}
+
+.cta-text {
+  font-weight: 600;
+  font-size: 24px;
+  color: rgb(255, 195, 85);
+  margin-top: 136px;
+}
+
+.download-btn {
+  width: 250px;
+  height: 51px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(43, 38, 29);
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
 }
