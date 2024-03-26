@@ -7,6 +7,11 @@
 body {
   background-color: rgb(210, 152, 45);
   font-family: "Inter", sans-serif;
+  max-width: 1440px;
+}
+
+a {
+  text-decoration: none;
 }
 
 .header {
@@ -298,4 +303,69 @@ h1 {
   color: #fff;
   text-transform: uppercase;
   cursor: pointer;
+}
+
+.footer-container {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 70px;
+  height: 398px;
+  padding-top: 120px;
+}
+
+.social-media__wrapper {
+  margin-right: 181px;
+  margin-left: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.footer__title {
+  font-weight: 500;
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 10px;
+}
+
+.footer__link {
+  color: rgb(245, 183, 71);
+  margin-bottom: 15px;
+  display: block;
+}
+
+.subscribe__text {
+  color: rgb(245, 183, 71);
+}
+
+.email-input__wrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 175px;
+  background-color: rgb(224, 161, 46);
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.email-input {
+  height: 30px;
+  border: none;
+  background-color: rgb(224, 161, 46);
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.send-btn {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  top: 0;
+  right: 0;
 }
