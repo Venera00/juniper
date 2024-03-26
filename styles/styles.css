@@ -164,3 +164,60 @@ h1 {
 .plan__text-white {
   color: rgb(255, 255, 255);
 }
+
+.testimonials-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  /* background: url("../assets/home/clouds-bg.png"); */
+  /* background-color: rgba(224, 161, 46); */
+}
+
+.testimonials-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonial__wrapper {
+  display: flex;
+}
+
+.testimonial__card {
+  width: 460px;
+  height: 220px;
+  background-color: #403b45;
+  border-radius: 16px;
+  padding: 10px 40px;
+  color: #fff;
+}
+
+.testimonial__text {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.user-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.user__name {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.testmionial-footer__text {
+  font-weight: 400;
+  font-size: 12px;
+  color: rgb(145, 145, 145);
+  padding: 10px 0;
+}
+
+.slider-img {
+  display: block;
+  margin: 0 auto;
+}
