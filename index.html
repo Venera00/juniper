@@ -14,13 +14,13 @@
   </head>
   <body>
     <div class="container">
-      <header class="header">
+      <header class="header header-nav">
         <a href="#" class="main-link">Juniper</a>
 
         <nav class="navigation">
-          <a href="/" class="nav-link">Home</a>
+          <a href="/" class="nav-link active">Home</a>
           <a href="#" class="nav-link">Info</a>
-          <a href="#" class="nav-link">Shop</a>
+          <a href="./shop.html" class="nav-link">Shop</a>
           <a href="#" class="nav-link">TOS</a>
           <img
             src="./assets/home/search-icon.svg"
@@ -29,10 +29,30 @@
           />
         </nav>
 
-        <nav class="nav-accordion">
-          <img src="./assets/home/accordion.svg" alt="Navigation" />
-        </nav>
+        <img
+          src="./assets/home/accordion.svg"
+          alt="Navigation"
+          class="nav-img"
+        />
       </header>
+
+      <!-- <div class="sidebar"> -->
+      <!-- <input type="checkbox" id="check" />
+        <label for="check">
+          <img
+            src="./assets/home/accordion.svg"
+            alt="Navigation"
+            id="nav-img"
+          />
+        </label> -->
+
+      <!-- <nav class="navigation sidebar-links">
+          <a href="/" class="nav-link active">Home</a>
+          <a href="#" class="nav-link">Info</a>
+          <a href="./shop.html" class="nav-link">Shop</a>
+          <a href="#" class="nav-link">TOS</a>
+        </nav>
+      </div> -->
 
       <section class="about-section">
         <div class="about__content">
@@ -252,7 +272,7 @@
         </div>
       </section>
 
-      <section class="footer-section">
+      <footer class="footer-section">
         <div class="social-media__wrapper mobile">
           <div>
             <a href="https://twitter.com/" target="_blank">
@@ -353,7 +373,7 @@
             <button class="footer-btn">Get now</button>
           </div>
         </div>
-      </section>
+      </footer>
     </div>
   </body>
 </html>

@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-  /* margin: 0 auto; */
+  margin: 0 auto;
 }
 
 a {
@@ -22,6 +22,10 @@ a {
   display: flex;
   justify-content: space-between;
   padding: 18px 49px;
+}
+
+.nav-img {
+  display: none;
 }
 
 .navigation {
@@ -50,7 +54,11 @@ a {
   text-decoration: none;
 }
 
-.nav-link:active {
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.nav-link.active {
   text-decoration: underline;
 }
 
@@ -422,10 +430,88 @@ li {
     display: none;
   }
 
-  .nav-accordion {
+  .header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav-img {
     display: block;
     cursor: pointer;
   }
+
+  /* .sidebar {
+    display: flex;
+    flex-direction: column;
+  }
+  .sidebar-links {
+    display: block;
+  }
+
+  .nav-accordion {
+    display: block;
+    cursor: pointer;
+  } */
+
+  /* .sidebar {
+    position: fixed;
+    top: 0;
+    right: -250px;
+    width: 250px;
+    height: 100%;
+    background: rgb(224, 161, 46);
+    transition: right 0.3s ease;
+  }
+
+  .sidebar label {
+    position: absolute;
+    top: 20px;
+    left: 200px;
+    cursor: pointer;
+  }
+
+  .sidebar-links {
+    padding-top: 50px;
+  }
+
+  .sidebar-links {
+    display: flex;
+    flex-direction: column;
+  } */
+
+  #check {
+    display: none;
+  }
+  /* 
+  #check:not(:checked) + .sidebar {
+    right: -250px;
+  }
+
+  #check:checked + .sidebar {
+    right: 0;
+  }
+
+  .nav-accordion-label {
+    cursor: pointer;
+  }
+
+  .nav-accordion-checkbox {
+    display: none;
+  }
+
+  .nav-accordion-checkbox:checked + .sidebar {
+    right: 0;
+  }
+
+  .nav-accordion-checkbox:not(:checked) + .sidebar {
+    right: -250px;
+  } */
 
   h1 {
     font-size: 60px;
