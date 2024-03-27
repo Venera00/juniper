@@ -312,8 +312,8 @@ li {
   margin-left: 0;
 }
 
-li {
-  list-style-type: none;
+.desktop {
+  display: none;
 }
 
 .footer__title {
@@ -484,5 +484,55 @@ li {
     display: flex;
     flex-direction: column;
     margin-right: 0;
+  }
+  .mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .atmos-section img {
+    width: 320px;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .price__title {
+    font-size: 32px;
+    width: 320px;
+  }
+
+  .products__subtitle {
+    font-size: 14px;
+  }
+
+  .price-cards {
+    gap: 0;
+  }
+
+  .footer-container {
+    height: 321px;
+    gap: 20px;
+    padding-top: 0;
+    margin-bottom: 10px;
+  }
+
+  .mobile {
+    display: flex;
+    margin: 69px 0 0 30px;
+  }
+
+  .social-media__wrapper {
+    flex-direction: row;
+  }
+
+  .footer__title {
+    font-size: 20px;
+  }
+
+  .footer__link {
+    font-size: 16px;
   }
 }
