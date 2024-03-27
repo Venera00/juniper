@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./styles/tos.css" />
+    <link rel="stylesheet" href="./styles/info.css" />
   </head>
   <body>
     <header class="header header-nav">
@@ -20,7 +20,7 @@
         <a href="/" class="nav-link active">Home</a>
         <a href="./info.html" class="nav-link">Info</a>
         <a href="./shop.html" class="nav-link">Shop</a>
-        <a href="#" class="nav-link">TOS</a>
+        <a href="./tos.html" class="nav-link">TOS</a>
         <img
           src="./assets/home/search-icon.svg"
           alt="Search"
@@ -31,49 +31,135 @@
       <img src="./assets/home/accordion.svg" alt="Navigation" class="nav-img" />
     </header>
 
-    <section class="tos-section">
-      <div class="tos-wrapper">
-        <img src="./assets/shop/Lock.png" alt="The lock" class="lock-img" />
-        <div class="tos-item__wrapper">
-          <div class="tos-item">
-            <p class="tos__title">Terms Of Service</p>
-            <p class="tos__subtitle">
-              Welcome to Juniper, the app that lets you check the weather with
-              innovative software and an easy to use interface. By using our
-              app, you agree to these terms of service. Please read them
-              carefully.
+    <section class="main-section">
+      <img
+        src="./assets/info/main-img.png"
+        alt="The laptop"
+        class="main-link"
+      />
+      <img
+        src="./assets/info/mountains.png"
+        alt="Mountains"
+        class="mountains-img"
+      />
+    </section>
+
+    <section class="compare-section">
+      <table class="table">
+        <thead>
+          <tr>
+            <th></th>
+            <th>Juniper</th>
+            <th>Other company</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="column_white">Cloud Technology</td>
+            <td>Cloud technology for reliable forecasts</td>
+            <td>Other apps use outdated data sources</td>
+          </tr>
+
+          <tr>
+            <td class="column_white">Simple Interface</td>
+            <td>Simple and intuitive interface</td>
+            <td>Other apps have cluttered designs</td>
+          </tr>
+
+          <tr>
+            <td class="column_white">10-Day Forecast</td>
+            <td>10-day forecast with hourly updates</td>
+            <td>Other apps offer 7-day forecast or less</td>
+          </tr>
+
+          <tr>
+            <td class="column_white">Weather Alerts</td>
+            <td>Severe weather alerts and notifications</td>
+            <td>Other apps do not warn you of hazards</td>
+          </tr>
+
+          <tr>
+            <td class="column_white">Air Quality</td>
+            <td>Data Air quality information and maps</td>
+            <td>Other apps do not include air quality data</td>
+          </tr>
+
+          <tr>
+            <td class="column_white">Weather Maps</td>
+            <td>Temperature and precipitation maps</td>
+            <td>Other apps do not show global patterns</td>
+          </tr>
+
+          <tr>
+            <td class="column_white">Affordable Price</td>
+            <td>Inexpensive and affordable</td>
+            <td>Other apps charge premium prices or fees</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <button class="compare-section__btn">Download now</button>
+    </section>
+
+    <section class="clouds-section">
+      <p class="clouds__title">| Spec's clouds</p>
+
+      <div class="clouds-wrapper">
+        <div class="cloud-item__wrapper">
+          <img
+            src="./assets/info/rainy.svg"
+            alt="Cloud"
+            class="section-main__img"
+          />
+          <div class="cloud-item item_top">
+            <img src="./assets/info/Cloud-check.svg" alt="Cloud checked" />
+            <p>
+              Accurate and reliable weather forecasts powered by cloud computing
             </p>
           </div>
-          <div class="tos-item">
-            <p class="tos__title">License</p>
-            <p class="tos__subtitle">
-              We grant you a limited, non-exclusive, non-transferable, and
-              revocable license to use our app for your personal, non-commercial
-              use only. You may not copy, modify, distribute, sell, or lease any
-              part of our app or its content, nor may you reverse engineer or
-              attempt to extract the source code of our app, unless you have our
-              written permission.
+        </div>
+
+        <div class="cloud-item__wrapper">
+          <img
+            src="./assets/info/sunny.png"
+            alt="Sunny cloud"
+            class="section-main__img"
+          />
+          <div class="cloud-item item_left">
+            <img src="./assets/info/Layer.svg" alt="Layer" />
+            <p>
+              Compatible with various devices and platforms, including smart
+              home systems
             </p>
           </div>
-          <div class="tos-item">
-            <p class="tos__title">Privacy</p>
-            <p class="tos__subtitle">
-              We respect your privacy and are committed to protecting it. Our
-              privacy policy explains how we collect, use, and share your
-              personal information when you use our app. By using our app, you
-              consent to our privacy policy.
+        </div>
+
+        <div class="cloud-item__wrapper">
+          <img
+            src="./assets/info/cloud.svg"
+            alt="Cloud"
+            class="section-main__img"
+          />
+          <div class="cloud-item">
+            <img src="./assets/info/Layout.svg" alt="Layout" />
+            <p>
+              Interactive and user-friendly interface with stunning graphics and
+              animations
             </p>
           </div>
-          <div class="tos-item item_unvisible">
-            <p class="tos__title">Content</p>
-            <p class="tos__subtitle">
-              You are responsible for any content that you upload, post, or
-              share on or through our app, such as photos, videos, comments, or
-              ratings. You must have the right to use such content and not
-              violate any laws or rights of others. You grant us a worldwide,
-              royalty-free, and non-exclusive license to use, store, display,
-              and distribute your content on or through our app for the purposes
-              of providing and improving our services.
+        </div>
+
+        <div class="cloud-item__wrapper">
+          <img
+            src="./assets/info/cloud-with-line.svg"
+            alt="Cloud"
+            class="section-main__img"
+          />
+          <div class="cloud-item item_bottom">
+            <img src="./assets/info/Notification.svg" alt="Notification icon" />
+            <p>
+              Customizable alerts and notifications for different weather
+              conditions
             </p>
           </div>
         </div>
