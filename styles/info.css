@@ -139,6 +139,8 @@ td {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
   margin: 30px 0 195px 0;
 }
 
@@ -298,4 +300,158 @@ li {
 
 .mobile {
   display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .navigation {
+    display: none;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav-img {
+    display: block;
+    cursor: pointer;
+  }
+
+  .main-img {
+    width: 949px;
+    height: 526px;
+  }
+
+  .clouds-wrapper {
+    align-items: center;
+    justify-content: center;
+    /* gap: 130px; */
+  }
+
+  .social-media__wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 0 76px 0 87px;
+  }
+
+  .footer-container {
+    gap: 40px;
+  }
+
+  .mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 745px) {
+  .main-img {
+    width: 600px;
+    height: 300px;
+  }
+
+  th {
+    font-size: 20px;
+  }
+
+  tr,
+  td {
+    padding: 3px;
+  }
+
+  .column_white {
+    font-size: 16px;
+  }
+
+  .clouds-wrapper {
+    /* flex-direction: column; */
+  }
+
+  .cloud-item_unvisible {
+    display: none;
+  }
+
+  .footer-container {
+    height: 490px;
+  }
+
+  .social-media__wrapper {
+    margin-right: 112px;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .arrow {
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .main-img {
+    width: 338px;
+    height: 249px;
+  }
+
+  table {
+    width: 320px;
+    height: 479px;
+  }
+  tr {
+    /* padding: 0; */
+  }
+
+  th {
+    font-size: 12px;
+  }
+
+  td {
+    font-size: 10px;
+  }
+
+  .column_white {
+    font-size: 12px;
+  }
+
+  .compare-section__btn {
+    width: 150px;
+    height: 24px;
+    font-size: 12px;
+  }
+
+  .clouds__title {
+    font-size: 20px;
+  }
+
+  .mobile_unvisible {
+    display: none;
+  }
+
+  .clouds-wrapper {
+    flex-wrap: nowrap;
+    margin-bottom: 60px;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    margin: 69px 0 10px 30px;
+  }
+
+  .footer-container {
+    height: 321px;
+    gap: 20px;
+    padding-top: 0;
+    margin-bottom: 10px;
+  }
+
+  .footer__title {
+    font-size: 20px;
+  }
+
+  .footer__link {
+    font-size: 16px;
+  }
 }
