@@ -420,6 +420,7 @@ li {
 
   .atmos-section {
     gap: 10px;
+    margin-top: 76px;
   }
 
   .atmos__title {
@@ -437,5 +438,51 @@ li {
 
   .footer-container {
     height: 500px;
+  }
+}
+
+@media screen and (max-width: 744px) {
+  .atmos-section {
+    flex-direction: column;
+    margin-bottom: 54px;
+  }
+
+  .atmos-section img {
+    width: 520px;
+  }
+
+  .atmos__btn {
+    width: 133px;
+    height: 28px;
+    font-weight: 500;
+    font-size: 14px;
+  }
+
+  .products {
+    flex-direction: column;
+  }
+
+  .img-tablet_hide {
+    display: none;
+  }
+
+  .price__title {
+    font-size: 36px;
+    width: 520px;
+    margin-top: 44px;
+  }
+
+  .products__subtitle {
+    font-size: 16px;
+  }
+
+  .card_hide {
+    display: none;
+  }
+
+  .social-media__wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-right: 0;
   }
 }
