@@ -34,10 +34,6 @@ a {
   gap: 18px;
 }
 
-.nav-accordion {
-  display: none;
-}
-
 .main-link,
 .juniper {
   font-weight: 500;

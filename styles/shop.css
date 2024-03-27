@@ -7,7 +7,7 @@
 body {
   background-color: rgb(210, 152, 45);
   font-family: "Inter", sans-serif;
-  max-width: 1440px;
+  /* max-width: 1440px; */
 }
 
 .container {
@@ -143,6 +143,10 @@ a {
   align-items: center;
   justify-content: center;
   margin-bottom: 123px;
+}
+
+.arrow-img {
+  display: none;
 }
 
 .price__title {
@@ -310,10 +314,6 @@ li {
 .social-media__wrapper {
   margin-right: 181px;
   margin-left: 0;
-}
-
-.desktop {
-  display: none;
 }
 
 .footer__title {
