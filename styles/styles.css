@@ -430,12 +430,6 @@ li {
     display: none;
   }
 
-  .header-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
   .header {
     display: flex;
     justify-content: space-between;
@@ -485,9 +479,9 @@ li {
     flex-direction: column;
   } */
 
-  #check {
+  /* #check {
     display: none;
-  }
+  } */
   /* 
   #check:not(:checked) + .sidebar {
     right: -250px;

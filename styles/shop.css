@@ -398,3 +398,44 @@ li {
 .mobile {
   display: none;
 }
+
+.getapp-wrapper {
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .navigation {
+    display: none;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav-img {
+    display: block;
+    cursor: pointer;
+  }
+
+  .atmos-section {
+    gap: 10px;
+  }
+
+  .atmos__title {
+    font-size: 60px;
+  }
+
+  .atmos__text {
+    font-size: 18px;
+    width: 300px;
+  }
+
+  .img_hide {
+    display: none;
+  }
+
+  .footer-container {
+    height: 500px;
+  }
+}

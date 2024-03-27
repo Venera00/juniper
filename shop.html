@@ -13,270 +13,282 @@
     <link rel="stylesheet" href="./styles/shop.css" />
   </head>
   <body>
-    <header class="header header-nav">
-      <a href="#" class="main-link">Juniper</a>
+    <div class="container">
+      <header class="header header-nav">
+        <a href="#" class="main-link">Juniper</a>
 
-      <nav class="navigation">
-        <a href="/" class="nav-link active">Home</a>
-        <a href="#" class="nav-link">Info</a>
-        <a href="./shop.html" class="nav-link">Shop</a>
-        <a href="#" class="nav-link">TOS</a>
+        <nav class="navigation">
+          <a href="/" class="nav-link active">Home</a>
+          <a href="#" class="nav-link">Info</a>
+          <a href="./shop.html" class="nav-link">Shop</a>
+          <a href="#" class="nav-link">TOS</a>
+          <img
+            src="./assets/home/search-icon.svg"
+            alt="Search"
+            class="search-icon"
+          />
+        </nav>
+
         <img
-          src="./assets/home/search-icon.svg"
-          alt="Search"
-          class="search-icon"
+          src="./assets/home/accordion.svg"
+          alt="Navigation"
+          class="nav-img"
         />
-      </nav>
+      </header>
 
-      <img src="./assets/home/accordion.svg" alt="Navigation" class="nav-img" />
-    </header>
+      <section class="atmos-section">
+        <img src="./assets/shop/laptop.png" alt="The laptop" />
 
-    <section class="atmos-section">
-      <img src="./assets/shop/laptop.png" alt="The laptop" />
+        <div class="atmos-content">
+          <h2 class="atmos__title">Atmos</h2>
+          <p class="atmos__text">
+            A weather app that lets you explore the atmosphere and learn more
+            about the weather phenomena
+          </p>
 
-      <div class="atmos-content">
-        <h2 class="atmos__title">Atmos</h2>
-        <p class="atmos__text">
-          A weather app that lets you explore the atmosphere and learn more
-          about the weather phenomena
+          <div class="atmos-btns">
+            <button class="atmos__btn atmos__btn-colored">Buy now</button>
+            <button class="atmos__btn atmos__btn-bordered">Add to Cart</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="products-section">
+        <div class="products">
+          <img src="./assets/shop/Iphone.png" alt="Iphone" />
+          <img src="./assets/shop/Ipad.png" alt="Ipad" />
+          <img src="./assets/shop/Iphone-rainy.png" alt="Iphone" />
+          <img src="./assets/shop/Desktop.png" alt="Desktop" class="img_hide" />
+        </div>
+
+        <button class="products__btn">show all products</button>
+      </section>
+
+      <section class="price-section">
+        <h3 class="price__title">
+          We offer <span>three plans</span> to suit your needs and budget
+        </h3>
+        <p class="products__subtitle">
+          You can switch or cancel your plan at any time
         </p>
 
-        <div class="atmos-btns">
-          <button class="atmos__btn atmos__btn-colored">Buy now</button>
-          <button class="atmos__btn atmos__btn-bordered">Add to Cart</button>
+        <div class="price-type">
+          <p>YEARLY BILLING</p>
+          <input type="checkbox" class="price__switcher" />
+          <p>MONTHLY BILLING</p>
         </div>
-      </div>
-    </section>
 
-    <section class="products-section">
-      <div class="products">
-        <img src="./assets/shop/Iphone.png" alt="Iphone" />
-        <img src="./assets/shop/Ipad.png" alt="Ipad" />
-        <img src="./assets/shop/Iphone-rainy.png" alt="Iphone" />
-        <img src="./assets/shop/Desktop.png" alt="Desktop" />
-      </div>
+        <div class="price-cards">
+          <div class="price__card">
+            <div class="card-content">
+              <p class="card__title">FREE</p>
+              <p class="price__subtitle">
+                <span>$</span>
+                0.00
+              </p>
 
-      <button class="products__btn">show all products</button>
-    </section>
-
-    <section class="price-section">
-      <h3 class="price__title">
-        We offer <span>three plans</span> to suit your needs and budget
-      </h3>
-      <p class="products__subtitle">
-        You can switch or cancel your plan at any time
-      </p>
-
-      <div class="price-type">
-        <p>YEARLY BILLING</p>
-        <input type="checkbox" class="price__switcher" />
-        <p>MONTHLY BILLING</p>
-      </div>
-
-      <div class="price-cards">
-        <div class="price__card">
-          <div class="card-content">
-            <p class="card__title">FREE</p>
-            <p class="price__subtitle">
-              <span>$</span>
-              0.00
-            </p>
-
-            <div class="card-options">
-              <div class="card__option">
-                <img src="./assets/shop/Check.svg" alt="Checkbox icon" />
-                <p>Basic weather info for your location</p>
-              </div>
-              <div class="card__option">
-                <img src="./assets/shop/Check.svg" alt="Checkbox icon" />
-                <p>Share with one partner</p>
-              </div>
-              <div class="card__option">
-                <img src="./assets/shop/Check.svg" alt="Checkbox icon" />
-                <p>Daily and hourly forecasts</p>
-              </div>
-              <div class="card__option">
-                <img src="./assets/shop/Check.svg" alt="Checkbox icon" />
-                <p>Beautiful and intuitive interface</p>
+              <div class="card-options">
+                <div class="card__option">
+                  <img src="./assets/shop/Check.svg" alt="Checkbox icon" />
+                  <p>Basic weather info for your location</p>
+                </div>
+                <div class="card__option">
+                  <img src="./assets/shop/Check.svg" alt="Checkbox icon" />
+                  <p>Share with one partner</p>
+                </div>
+                <div class="card__option">
+                  <img src="./assets/shop/Check.svg" alt="Checkbox icon" />
+                  <p>Daily and hourly forecasts</p>
+                </div>
+                <div class="card__option">
+                  <img src="./assets/shop/Check.svg" alt="Checkbox icon" />
+                  <p>Beautiful and intuitive interface</p>
+                </div>
               </div>
             </div>
+            <button class="card__btn">SUBSCRIBE</button>
           </div>
-          <button class="card__btn">SUBSCRIBE</button>
-        </div>
 
-        <div class="price__card price__card-big">
-          <div class="card-content">
-            <p class="card__title">COUPLE</p>
-            <p class="price__subtitle">
-              <span>$</span>
-              2.49
-            </p>
+          <div class="price__card price__card-big">
+            <div class="card-content">
+              <p class="card__title">COUPLE</p>
+              <p class="price__subtitle">
+                <span>$</span>
+                2.49
+              </p>
 
-            <div class="card-options">
-              <div class="card__option">
-                <img src="./assets/shop/Check.svg" alt="Checkbox icon" />
-                <p>Advanced weather info for any location</p>
-              </div>
-              <div class="card__option">
-                <img src="./assets/shop/Check.svg" alt="Checkbox icon" />
-                <p>Share with up to five partners</p>
-              </div>
-              <div class="card__option">
-                <img src="./assets/shop/Check.svg" alt="Checkbox icon" />
-                <p>Weekly and monthly forecasts</p>
-              </div>
-              <div class="card__option">
-                <img src="./assets/shop/Check.svg" alt="Checkbox icon" />
-                <p>Customizable themes and widgets</p>
-              </div>
-              <div class="card__option">
-                <img src="./assets/shop/Check.svg" alt="Checkbox icon" />
-                <p>Weather groups, stickers, emojis, and gifs</p>
-              </div>
-              <div class="card__option">
-                <img src="./assets/shop/Check.svg" alt="Checkbox icon" />
-                <p>Exclusive blog and podcast</p>
+              <div class="card-options">
+                <div class="card__option">
+                  <img src="./assets/shop/Check.svg" alt="Checkbox icon" />
+                  <p>Advanced weather info for any location</p>
+                </div>
+                <div class="card__option">
+                  <img src="./assets/shop/Check.svg" alt="Checkbox icon" />
+                  <p>Share with up to five partners</p>
+                </div>
+                <div class="card__option">
+                  <img src="./assets/shop/Check.svg" alt="Checkbox icon" />
+                  <p>Weekly and monthly forecasts</p>
+                </div>
+                <div class="card__option">
+                  <img src="./assets/shop/Check.svg" alt="Checkbox icon" />
+                  <p>Customizable themes and widgets</p>
+                </div>
+                <div class="card__option">
+                  <img src="./assets/shop/Check.svg" alt="Checkbox icon" />
+                  <p>Weather groups, stickers, emojis, and gifs</p>
+                </div>
+                <div class="card__option">
+                  <img src="./assets/shop/Check.svg" alt="Checkbox icon" />
+                  <p>Exclusive blog and podcast</p>
+                </div>
               </div>
             </div>
+            <button class="card__btn card__btn-big">SUBSCRIBE</button>
           </div>
-          <button class="card__btn card__btn-big">SUBSCRIBE</button>
-        </div>
 
-        <div class="price__card">
-          <div class="card-content">
-            <p class="card__title">PRO</p>
-            <p class="price__subtitle">
-              <span>$</span>
-              4.99
-            </p>
+          <div class="price__card">
+            <div class="card-content">
+              <p class="card__title">PRO</p>
+              <p class="price__subtitle">
+                <span>$</span>
+                4.99
+              </p>
 
-            <div class="card-options">
-              <div class="card__option">
-                <img src="./assets/shop/Check.svg" alt="Checkbox icon" />
-                <p>Exclusive weather info from our cloud technology</p>
-              </div>
-              <div class="card__option">
-                <img src="./assets/shop/Check.svg" alt="Checkbox icon" />
-                <p>Share with unlimited partners</p>
-              </div>
-              <div class="card__option">
-                <img src="./assets/shop/Check.svg" alt="Checkbox icon" />
-                <p>
-                  Personalized forecasts based on your preferences and
-                  activities
-                </p>
-              </div>
-              <div class="card__option">
-                <img src="./assets/shop/Check.svg" alt="Checkbox icon" />
-                <p>Weather trends, alerts, and recommendations</p>
-              </div>
-              <div class="card__option">
-                <img src="./assets/shop/Check.svg" alt="Checkbox icon" />
-                <p>Special features and rewards</p>
+              <div class="card-options">
+                <div class="card__option">
+                  <img src="./assets/shop/Check.svg" alt="Checkbox icon" />
+                  <p>Exclusive weather info from our cloud technology</p>
+                </div>
+                <div class="card__option">
+                  <img src="./assets/shop/Check.svg" alt="Checkbox icon" />
+                  <p>Share with unlimited partners</p>
+                </div>
+                <div class="card__option">
+                  <img src="./assets/shop/Check.svg" alt="Checkbox icon" />
+                  <p>
+                    Personalized forecasts based on your preferences and
+                    activities
+                  </p>
+                </div>
+                <div class="card__option">
+                  <img src="./assets/shop/Check.svg" alt="Checkbox icon" />
+                  <p>Weather trends, alerts, and recommendations</p>
+                </div>
+                <div class="card__option">
+                  <img src="./assets/shop/Check.svg" alt="Checkbox icon" />
+                  <p>Special features and rewards</p>
+                </div>
               </div>
             </div>
+
+            <button class="card__btn">SUBSCRIBE</button>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer-section">
+        <div class="social-media__wrapper mobile">
+          <div>
+            <a href="https://twitter.com/" target="_blank">
+              <img src="./assets//home/twitter-icon.svg" alt="Twitter icon" />
+            </a>
           </div>
 
-          <button class="card__btn">SUBSCRIBE</button>
+          <div>
+            <a href="https://www.facebook.com/" target="_blank">
+              <img src="./assets/home/facebook-icon.svg" alt="Facebook icon" />
+            </a>
+          </div>
+          <div>
+            <a href="https://www.instagram.com/" target="_blank">
+              <img
+                src="./assets/home/instagram-icon.svg"
+                alt="Instagram icon"
+              />
+            </a>
+          </div>
         </div>
-      </div>
-    </section>
+        <div class="footer-container">
+          <div class="social-media__wrapper desktop">
+            <a href="https://twitter.com/" target="_blank">
+              <img src="./assets//home/twitter-icon.svg" alt="Twitter icon" />
+            </a>
+            <a href="https://www.facebook.com/" target="_blank">
+              <img src="./assets/home/facebook-icon.svg" alt="Facebook icon" />
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+              <img
+                src="./assets/home/instagram-icon.svg"
+                alt="Instagram icon"
+              />
+            </a>
+          </div>
 
-    <footer class="footer-section">
-      <div class="social-media__wrapper mobile">
-        <div>
-          <a href="https://twitter.com/" target="_blank">
-            <img src="./assets//home/twitter-icon.svg" alt="Twitter icon" />
-          </a>
-        </div>
-
-        <div>
-          <a href="https://www.facebook.com/" target="_blank">
-            <img src="./assets/home/facebook-icon.svg" alt="Facebook icon" />
-          </a>
-        </div>
-        <div>
-          <a href="https://www.instagram.com/" target="_blank">
-            <img src="./assets/home/instagram-icon.svg" alt="Instagram icon" />
-          </a>
-        </div>
-      </div>
-      <div class="footer-container">
-        <div class="social-media__wrapper desktop">
-          <a href="https://twitter.com/" target="_blank">
-            <img src="./assets//home/twitter-icon.svg" alt="Twitter icon" />
-          </a>
-          <a href="https://www.facebook.com/" target="_blank">
-            <img src="./assets/home/facebook-icon.svg" alt="Facebook icon" />
-          </a>
-          <a href="https://www.instagram.com/" target="_blank">
-            <img src="./assets/home/instagram-icon.svg" alt="Instagram icon" />
-          </a>
-        </div>
-
-        <div class="footer-pages">
-          <p class="footer__title">Pages</p>
-          <ul class="list-ul">
-            <li class="pages__list">
-              <a href="#" class="footer__link">Home</a>
-            </li>
-            <li class="pages__list">
-              <a href="#" class="footer__link">Info</a>
-            </li>
-            <li class="pages__list">
-              <a href="#" class="footer__link">Shop</a>
-            </li>
-            <li class="pages__list">
-              <a href="#" class="footer__link">TOS</a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="footer-platform">
-          <p class="footer__title">Platform</p>
-          <div class="platform-links">
-            <ul>
-              <li><a href="#" class="footer__link">Android</a></li>
-              <li><a href="#" class="footer__link">IOS</a></li>
-              <li><a href="#" class="footer__link">Windows</a></li>
-              <li><a href="#" class="footer__link">Mac OS</a></li>
+          <div class="footer-pages">
+            <p class="footer__title">Pages</p>
+            <ul class="list-ul">
+              <li class="pages__list">
+                <a href="#" class="footer__link">Home</a>
+              </li>
+              <li class="pages__list">
+                <a href="#" class="footer__link">Info</a>
+              </li>
+              <li class="pages__list">
+                <a href="#" class="footer__link">Shop</a>
+              </li>
+              <li class="pages__list">
+                <a href="#" class="footer__link">TOS</a>
+              </li>
             </ul>
           </div>
-        </div>
 
-        <div class="footer-support">
-          <p class="footer__title">Support</p>
-          <ul>
-            <li><a href="#" class="footer__link">Supporrt request</a></li>
-            <li><a href="#" class="footer__link">Contact us</a></li>
-          </ul>
-        </div>
-
-        <div class="footer-subscribe">
-          <p class="footer__title">Subcsribe</p>
-          <div class="email-input__wrapper">
-            <input
-              type="text"
-              placeholder="Enter your email"
-              class="email-input"
-            />
-            <button class="send-btn">
-              <img src="./assets/home/telegram-icon.svg" alt="Send icon" />
-            </button>
+          <div class="footer-platform">
+            <p class="footer__title">Platform</p>
+            <div class="platform-links">
+              <ul>
+                <li><a href="#" class="footer__link">Android</a></li>
+                <li><a href="#" class="footer__link">IOS</a></li>
+                <li><a href="#" class="footer__link">Windows</a></li>
+                <li><a href="#" class="footer__link">Mac OS</a></li>
+              </ul>
+            </div>
           </div>
-          <p class="subscribe__text">
-            Join our newsletter to stay up to <br />
-            date on features and releases
-          </p>
+
+          <div class="footer-support">
+            <p class="footer__title">Support</p>
+            <ul>
+              <li><a href="#" class="footer__link">Supporrt request</a></li>
+              <li><a href="#" class="footer__link">Contact us</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-subscribe">
+            <p class="footer__title">Subcsribe</p>
+            <div class="email-input__wrapper">
+              <input
+                type="text"
+                placeholder="Enter your email"
+                class="email-input"
+              />
+              <button class="send-btn">
+                <img src="./assets/home/telegram-icon.svg" alt="Send icon" />
+              </button>
+            </div>
+            <p class="subscribe__text">
+              Join our newsletter to stay up to <br />
+              date on features and releases
+            </p>
+          </div>
         </div>
-      </div>
-      <div class="getapp-wrapper">
-        <div class="footer-line"></div>
-        <div class="footer-get">
-          <h3 class="juniper">Juniper</h3>
-          <button class="footer-btn">Get now</button>
+        <div class="getapp-wrapper">
+          <div class="footer-line"></div>
+          <div class="footer-get">
+            <h3 class="juniper">Juniper</h3>
+            <button class="footer-btn">Get now</button>
+          </div>
         </div>
-      </div>
-    </footer>
+      </footer>
+    </div>
   </body>
 </html>
